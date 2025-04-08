@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.3.5, pluggy-1.5.0
+rootdir: /Users/prachi/coding/assignments/AppliedMachineLearning/Assignment 3
+plugins: anyio-4.9.0, cov-6.1.0
+collected 9 items
+
+test.py .........                                                        [100%]
+
+=============================== warnings summary ===============================
+venv/lib/python3.9/site-packages/urllib3/_init_.py:35
+  /Users/prachi/coding/assignments/AppliedMachineLearning/Assignment 3/venv/lib/python3.9/site-packages/urllib3/_init_.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_____ coverage: platform darwin, python 3.9.6-final-0 ______
+
+Name       Stmts   Miss  Cover
+------------------------------
+app.py        14      1    93%
+score.py       8      1    88%
+test.py       52      2    96%
+------------------------------
+TOTAL         74      4    95%
+========================= 9 passed, 1 warning in 0.89s =========================
